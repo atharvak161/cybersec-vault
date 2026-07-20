@@ -1,0 +1,3908 @@
+[
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.1 — Cloud Pentesting vs On-Prem Pentesting.md",
+    "title": "00.1 — Cloud Pentesting vs On-Prem Pentesting",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "foundations",
+      "pentesting",
+      "methodology",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.2 — Shared Responsibility Model.md",
+    "title": "00.2 — Shared Responsibility Model",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "foundations",
+      "shared-responsibility",
+      "aws",
+      "azure",
+      "gcp",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.3 — Legal and Scoping Considerations.md",
+    "title": "00.3 — Legal and Scoping Considerations",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "foundations",
+      "legal",
+      "scoping",
+      "rules-of-engagement",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.4 — Cloud Service Models and Attack Surface.md",
+    "title": "00.4 — Cloud Service Models and Attack Surface",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "foundations",
+      "iaas",
+      "paas",
+      "saas",
+      "attack-surface",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.5 — Core Cloud Concepts for Pentesters.md",
+    "title": "00.5 — Core Cloud Concepts Every Pentester Must Know",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "foundations",
+      "concepts",
+      "iam",
+      "regions",
+      "tenants",
+      "attacker-mindset",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.6 — Tool Setup — CLI and Frameworks.md",
+    "title": "00.6 — Tool Setup — CLI Tools and Security Frameworks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "tools",
+      "aws-cli",
+      "azure-cli",
+      "gcloud",
+      "scoutsuite",
+      "prowler",
+      "pacu",
+      "roadtools",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 0 — Cloud Foundations/00.7 — Lab Setup and Practice Environments.md",
+    "title": "00.7 — Lab Setup and Practice Environments",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 0 — Cloud Foundations",
+    "tags": [
+      "cloud",
+      "labs",
+      "practice",
+      "cloudgoat",
+      "azuregoat",
+      "flaws",
+      "hackthebox",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.1 — AWS IAM Fundamentals.md",
+    "title": "01.1 — AWS IAM Fundamentals",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "iam",
+      "fundamentals",
+      "users",
+      "roles",
+      "policies",
+      "trust-policy",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.2 — IAM Enumeration and Access Key Attacks.md",
+    "title": "01.2 — IAM Enumeration and Access Key Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "iam",
+      "enumeration",
+      "access-keys",
+      "credential-exposure",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.3 — Metadata Service Attacks.md",
+    "title": "01.3 — Metadata Service Attacks (IMDSv1 vs IMDSv2)",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "imds",
+      "metadata",
+      "ssrf",
+      "imdsv1",
+      "imdsv2",
+      "credential-theft",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.4 — S3 Attacks.md",
+    "title": "01.4 — S3 Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "s3",
+      "bucket-attacks",
+      "misconfigurations",
+      "data-exfiltration",
+      "acl",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.5 — IAM Privilege Escalation.md",
+    "title": "01.5 — IAM Privilege Escalation",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "iam",
+      "privilege-escalation",
+      "passrole",
+      "lambda",
+      "ec2",
+      "cloudformation",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 1 — AWS Security/01.6 — EC2, Lambda, Secrets Manager, and CloudTrail.md",
+    "title": "01.6 — EC2, Lambda, Secrets Manager, and CloudTrail",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 1 — AWS Security",
+    "tags": [
+      "aws",
+      "cloudtrail",
+      "logging",
+      "ec2",
+      "lambda",
+      "secrets-manager",
+      "evasion",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.1 — Azure Fundamentals.md",
+    "title": "02.1 — Azure Fundamentals",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "fundamentals",
+      "tenants",
+      "subscriptions",
+      "resource-groups",
+      "entra-id",
+      "rbac",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.2 — Azure AD Enumeration and Token Attacks.md",
+    "title": "02.2 — Azure AD Enumeration and Token Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "enumeration",
+      "azure-ad",
+      "entra-id",
+      "token-attacks",
+      "oauth",
+      "device-code",
+      "prt",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.3 — Managed Identity Abuse.md",
+    "title": "02.3 — Managed Identity Abuse",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "managed-identity",
+      "imds",
+      "lateral-movement",
+      "ssrf",
+      "vm",
+      "app-service",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.4 — Azure Storage and Key Vault Attacks.md",
+    "title": "02.4 — Azure Storage and Key Vault Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "storage",
+      "key-vault",
+      "blob",
+      "sas-token",
+      "shared-key",
+      "secrets",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.5 — Azure AD Privilege Escalation.md",
+    "title": "02.5 — Azure AD Privilege Escalation",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "privilege-escalation",
+      "azure-ad",
+      "global-admin",
+      "conditional-access",
+      "app-registration",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 2 — Azure Security/02.6 — Azure Tools.md",
+    "title": "02.6 — Azure Tools — ROADtools, AzureHound, MicroBurst, AADInternals",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 2 — Azure Security",
+    "tags": [
+      "azure",
+      "tools",
+      "roadtools",
+      "azurehound",
+      "bloodhound",
+      "microburst",
+      "aad-internals",
+      "powerzure",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.1 — GCP Fundamentals.md",
+    "title": "03.1 — GCP Fundamentals",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "fundamentals",
+      "iam",
+      "organisations",
+      "projects",
+      "service-accounts",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.2 — GCP Service Account Attacks.md",
+    "title": "03.2 — GCP Service Account Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "service-accounts",
+      "impersonation",
+      "token-generation",
+      "key-exposure",
+      "workload-identity",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.3 — GCP Metadata, GCS Buckets, and Compute Engine.md",
+    "title": "03.3 — GCP Metadata Service, GCS Bucket Attacks, and Compute Engine",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "metadata",
+      "ssrf",
+      "compute-engine",
+      "cloud-storage",
+      "gcs",
+      "buckets",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.4 — Cloud Functions, Cloud Run, GKE, and Org Attacks.md",
+    "title": "03.4 — GCP Cloud Functions, Cloud Run, GKE, and Org-Level Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "cloud-functions",
+      "cloud-run",
+      "gke",
+      "kubernetes",
+      "workload-identity",
+      "domain-delegation",
+      "org-attacks",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.5 — GCP Privilege Escalation.md",
+    "title": "03.5 — GCP Privilege Escalation",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "privilege-escalation",
+      "iam",
+      "service-account",
+      "cloud-functions",
+      "gke",
+      "org-policy",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 3 — GCP Security/03.6 — GCP Tools and Practice Resources.md",
+    "title": "03.6 — GCP Tools and Practice Resources",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 3 — GCP Security",
+    "tags": [
+      "gcp",
+      "tools",
+      "scoutsuite",
+      "gcloud",
+      "gcpbucketbrute",
+      "hayat",
+      "iam-privilege-escalation",
+      "practice",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.1 — Docker Fundamentals and Attack Surface.md",
+    "title": "04.1 — Docker Fundamentals and Attack Surface",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "docker",
+      "containers",
+      "fundamentals",
+      "attack-surface",
+      "images",
+      "registries",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.2 — Docker Misconfigurations and Escape Techniques.md",
+    "title": "04.2 — Docker Misconfigurations and Escape Techniques",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "docker",
+      "escape",
+      "privileged",
+      "cgroup",
+      "socket",
+      "misconfigurations",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.3 — Container Image Attacks.md",
+    "title": "04.3 — Container Image Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "docker",
+      "images",
+      "layers",
+      "secrets",
+      "trivy",
+      "dockerfile",
+      "supply-chain",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.4 — Kubernetes Architecture and RBAC.md",
+    "title": "04.4 — Kubernetes Architecture and RBAC",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "kubernetes",
+      "architecture",
+      "rbac",
+      "control-plane",
+      "etcd",
+      "pods",
+      "services",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.5 — Kubernetes Attack Techniques.md",
+    "title": "04.5 — Kubernetes Attack Techniques",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "kubernetes",
+      "attacks",
+      "api-server",
+      "etcd",
+      "pod-escape",
+      "service-account",
+      "lateral-movement",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 4 — Container and Kubernetes Security/04.6 — Cloud-Specific Kubernetes Attacks and Tools.md",
+    "title": "04.6 — Cloud-Specific Kubernetes Attacks and Tools",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 4 — Container and Kubernetes Security",
+    "tags": [
+      "kubernetes",
+      "eks",
+      "aks",
+      "gke",
+      "tools",
+      "kube-hunter",
+      "trivy",
+      "peirates",
+      "cdk",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.1 — Serverless Attack Surface.md",
+    "title": "05.1 — Serverless Attack Surface",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "serverless",
+      "lambda",
+      "cloud-functions",
+      "azure-functions",
+      "attack-surface",
+      "paas",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.2 — Event Injection Attacks.md",
+    "title": "05.2 — Event Injection Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "serverless",
+      "event-injection",
+      "sqs",
+      "sns",
+      "s3-events",
+      "api-gateway",
+      "lambda",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.3 — Serverless Privilege Escalation via Execution Role.md",
+    "title": "05.3 — Serverless Privilege Escalation via Execution Role",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "serverless",
+      "privilege-escalation",
+      "execution-role",
+      "lambda",
+      "cloud-functions",
+      "persistence",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.4 — PaaS Attack Surface.md",
+    "title": "05.4 — PaaS Attack Surface",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "paas",
+      "elastic-beanstalk",
+      "app-service",
+      "app-engine",
+      "rds",
+      "cosmos-db",
+      "api-gateway",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.5 — CICD Pipeline Attacks.md",
+    "title": "05.5 — CI/CD Pipeline Attacks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "cicd",
+      "github-actions",
+      "codebuild",
+      "pipeline-injection",
+      "secrets",
+      "devops",
+      "supply-chain",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 5 — Serverless and PaaS/05.6 — Serverless Recon and Assessment Methodology.md",
+    "title": "05.6 — Serverless Reconnaissance and Assessment Methodology",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 5 — Serverless and PaaS",
+    "tags": [
+      "serverless",
+      "cold-start",
+      "timing",
+      "information-leakage",
+      "recon",
+      "enumeration",
+      "methodology",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 6 — Privilege Escalation and Lateral Movement/06.1 — Cloud Privesc Mindset and Methodology.md",
+    "title": "06.1 — Cloud Privilege Escalation Mindset and Methodology",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 6 — Privilege Escalation and Lateral Movement",
+    "tags": [
+      "cloud",
+      "privilege-escalation",
+      "lateral-movement",
+      "iam",
+      "mindset",
+      "methodology",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 6 — Privilege Escalation and Lateral Movement/06.2 — AWS Lateral Movement.md",
+    "title": "06.2 — AWS Lateral Movement",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 6 — Privilege Escalation and Lateral Movement",
+    "tags": [
+      "aws",
+      "lateral-movement",
+      "iam",
+      "role-chaining",
+      "sts",
+      "assume-role",
+      "confused-deputy",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 6 — Privilege Escalation and Lateral Movement/06.3 — Azure Lateral Movement.md",
+    "title": "06.3 — Azure Lateral Movement",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 6 — Privilege Escalation and Lateral Movement",
+    "tags": [
+      "azure",
+      "lateral-movement",
+      "managed-identity",
+      "service-principal",
+      "key-vault",
+      "token-pivoting",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 6 — Privilege Escalation and Lateral Movement/06.4 — GCP Lateral Movement.md",
+    "title": "06.4 — GCP Lateral Movement",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 6 — Privilege Escalation and Lateral Movement",
+    "tags": [
+      "gcp",
+      "lateral-movement",
+      "service-account",
+      "impersonation",
+      "gcs",
+      "token-chain",
+      "org",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 6 — Privilege Escalation and Lateral Movement/06.5 — Cross-Account and Cross-Cloud Movement.md",
+    "title": "06.5 — Cross-Account and Cross-Cloud Movement",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 6 — Privilege Escalation and Lateral Movement",
+    "tags": [
+      "cloud",
+      "cross-account",
+      "cross-cloud",
+      "lateral-movement",
+      "aws-organisations",
+      "trust-policies",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 7 — Cloud Reconnaissance and OSINT/07.1 — Unauthenticated Cloud Asset Discovery.md",
+    "title": "07.1 — Unauthenticated Cloud Asset Discovery",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 7 — Cloud Reconnaissance and OSINT",
+    "tags": [
+      "cloud",
+      "recon",
+      "osint",
+      "unauthenticated",
+      "asset-discovery",
+      "subdomain",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 7 — Cloud Reconnaissance and OSINT/07.2 — Subdomain Enumeration and Certificate Transparency.md",
+    "title": "07.2 — Subdomain Enumeration and Certificate Transparency",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 7 — Cloud Reconnaissance and OSINT",
+    "tags": [
+      "cloud",
+      "recon",
+      "subdomains",
+      "certificate-transparency",
+      "dns",
+      "amass",
+      "subfinder",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 7 — Cloud Reconnaissance and OSINT/07.3 — GitHub and Code Repository Recon.md",
+    "title": "07.3 — GitHub and Code Repository Recon",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 7 — Cloud Reconnaissance and OSINT",
+    "tags": [
+      "cloud",
+      "recon",
+      "github",
+      "trufflehog",
+      "gitleaks",
+      "secret-hunting",
+      "code-analysis",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 7 — Cloud Reconnaissance and OSINT/07.4 — Shodan, Censys, and Search Engine Dorks.md",
+    "title": "07.4 — Shodan, Censys, and Search Engine Dorks",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 7 — Cloud Reconnaissance and OSINT",
+    "tags": [
+      "cloud",
+      "recon",
+      "shodan",
+      "censys",
+      "dorks",
+      "google",
+      "attack-surface",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 7 — Cloud Reconnaissance and OSINT/07.5 — Cloud OSINT Tools and Assessment Methodology.md",
+    "title": "07.5 — Cloud OSINT Tools and Assessment Methodology",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 7 — Cloud Reconnaissance and OSINT",
+    "tags": [
+      "cloud",
+      "recon",
+      "osint",
+      "tools",
+      "cloud-enum",
+      "s3scanner",
+      "methodology",
+      "assessment",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 8 — Assessment Methodology/08.1 — Cloud Assessment vs Cloud Pentest.md",
+    "title": "08.1 — Cloud Security Assessment vs Cloud Penetration Test",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 8 — Assessment Methodology",
+    "tags": [
+      "cloud",
+      "methodology",
+      "assessment",
+      "pentest",
+      "scoping",
+      "black-box",
+      "white-box",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 8 — Assessment Methodology/08.2 — ScoutSuite, Prowler, CloudMapper, and Steampipe.md",
+    "title": "08.2 — ScoutSuite, Prowler, CloudMapper, and Steampipe",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 8 — Assessment Methodology",
+    "tags": [
+      "cloud",
+      "tools",
+      "scoutsuite",
+      "prowler",
+      "steampipe",
+      "cloudmapper",
+      "automated-scanning",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 8 — Assessment Methodology/08.3 — Manual Assessment Checklist by Service.md",
+    "title": "08.3 — Manual Assessment Checklist by Service",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 8 — Assessment Methodology",
+    "tags": [
+      "cloud",
+      "methodology",
+      "checklist",
+      "iam",
+      "s3",
+      "ec2",
+      "lambda",
+      "rds",
+      "vpc",
+      "cloudtrail",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 8 — Assessment Methodology/08.4 — Cloud Security Benchmarks and MITRE ATT&CK for Cloud.md",
+    "title": "08.4 — Cloud Security Benchmarks and MITRE ATT&CK for Cloud",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 8 — Assessment Methodology",
+    "tags": [
+      "cloud",
+      "benchmarks",
+      "cis",
+      "mitre-attack",
+      "compliance",
+      "frameworks",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 8 — Assessment Methodology/08.5 — Reporting Cloud Findings.md",
+    "title": "08.5 — Reporting Cloud Findings",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 8 — Assessment Methodology",
+    "tags": [
+      "cloud",
+      "reporting",
+      "findings",
+      "severity",
+      "remediation",
+      "methodology",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 9 — Persistence and Defence Evasion/09.1 — AWS Persistence Techniques.md",
+    "title": "09.1 — AWS Persistence Techniques",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 9 — Persistence and Defence Evasion",
+    "tags": [
+      "cloud",
+      "persistence",
+      "aws",
+      "iam-backdoor",
+      "lambda",
+      "ssm",
+      "access-keys",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 9 — Persistence and Defence Evasion/09.2 — Azure and GCP Persistence Techniques.md",
+    "title": "09.2 — Azure and GCP Persistence Techniques",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 9 — Persistence and Defence Evasion",
+    "tags": [
+      "azure",
+      "gcp",
+      "persistence",
+      "backdoor",
+      "app-registration",
+      "service-principal",
+      "conditional-access",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 9 — Persistence and Defence Evasion/09.3 — Cloud Defence Evasion and Log Manipulation.md",
+    "title": "09.3 — Cloud Defence Evasion and Log Manipulation",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 9 — Persistence and Defence Evasion",
+    "tags": [
+      "cloud",
+      "defence-evasion",
+      "cloudtrail",
+      "logging",
+      "detection",
+      "living-off-the-land",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 9 — Persistence and Defence Evasion/09.4 — Cloud Exfiltration Techniques.md",
+    "title": "09.4 — Cloud Exfiltration Techniques",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 9 — Persistence and Defence Evasion",
+    "tags": [
+      "cloud",
+      "exfiltration",
+      "s3",
+      "replication",
+      "snapshot",
+      "cross-account",
+      "data-theft",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 9 — Persistence and Defence Evasion/09.5 — Detection, Cleanup, and Persistence Reference.md",
+    "title": "09.5 — Detection, Cleanup, and Persistence Reference",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 9 — Persistence and Defence Evasion",
+    "tags": [
+      "cloud",
+      "persistence",
+      "detection",
+      "guardduty",
+      "defender",
+      "security-command-center",
+      "cleanup",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 10 — Labs and Practice/10.1 — Cloud Security Practice Environments.md",
+    "title": "10.1 — Cloud Security Practice Environments",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 10 — Labs and Practice",
+    "tags": [
+      "cloud",
+      "labs",
+      "practice",
+      "cloudgoat",
+      "azuregoat",
+      "gcpgoat",
+      "flaws",
+      "hackthebox",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 10 — Labs and Practice/10.2 — Cloud Security Certifications Roadmap.md",
+    "title": "10.2 — Cloud Security Certifications Roadmap",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 10 — Labs and Practice",
+    "tags": [
+      "cloud",
+      "certifications",
+      "aws-security",
+      "az-500",
+      "ccsp",
+      "roadmap",
+      "career",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 10 — Labs and Practice/10.3 — Community Resources and Further Reading.md",
+    "title": "10.3 — Community Resources and Further Reading",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 10 — Labs and Practice",
+    "tags": [
+      "cloud",
+      "resources",
+      "blogs",
+      "newsletters",
+      "research",
+      "community",
+      "whitepapers",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "CLOUDHAWK/MODULE 10 — Labs and Practice/10.4 — Mock Assessment Methodology and Practice Guide.md",
+    "title": "10.4 — Mock Assessment Methodology and Practice Guide",
+    "track": "CLOUDHAWK",
+    "module": "MODULE 10 — Labs and Practice",
+    "tags": [
+      "cloud",
+      "methodology",
+      "practice",
+      "mock-assessment",
+      "scenarios",
+      "career",
+      "cloudhawk"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-01 — What is GRC and Why It Exists.md",
+    "title": "G1-01 — What is GRC and Why It Exists",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "grc-overview"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-02 — Governance Explained.md",
+    "title": "G1-02 — Governance Explained",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "governance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-03 — Risk Explained.md",
+    "title": "G1-03 — Risk Explained",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "risk"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-04 — Compliance Explained.md",
+    "title": "G1-04 — Compliance Explained",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "compliance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-05 — The Three Lines of Defence Model.md",
+    "title": "G1-05 — The Three Lines of Defence Model",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "three-lines",
+      "governance",
+      "risk"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-06 — Information Security vs Cybersecurity vs GRC.md",
+    "title": "G1-06 — Information Security vs Cybersecurity vs GRC",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "information-security",
+      "cybersecurity",
+      "definitions"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-07 — Key Roles in GRC — CISO DPO Risk Manager Auditor.md",
+    "title": "G1-07 — Key Roles in GRC — CISO, DPO, Risk Manager, Auditor",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "roles",
+      "ciso",
+      "dpo",
+      "risk-manager",
+      "auditor"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-1-FOUNDATIONS/G1-08 — GRC Frameworks Overview — The Landscape.md",
+    "title": "G1-08 — GRC Frameworks Overview — The Landscape",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-1-FOUNDATIONS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-1",
+      "foundations",
+      "frameworks",
+      "iso27001",
+      "nist",
+      "cobit",
+      "pci-dss",
+      "gdpr",
+      "cyber-essentials"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-01 — What is Risk — Threat Vulnerability Asset Impact.md",
+    "title": "G2-01 — What is Risk — Threat, Vulnerability, Asset, Impact",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "threat",
+      "vulnerability",
+      "asset",
+      "impact",
+      "cia-triad"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-02 — Risk Appetite and Risk Tolerance.md",
+    "title": "G2-02 — Risk Appetite and Risk Tolerance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "risk-appetite",
+      "risk-tolerance",
+      "risk-threshold",
+      "governance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-03 — Risk Assessment Methodologies.md",
+    "title": "G2-03 — Risk Assessment Methodologies",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "risk-assessment",
+      "methodologies",
+      "iso27005",
+      "octave",
+      "fair",
+      "nist"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-04 — Qualitative vs Quantitative Risk Analysis.md",
+    "title": "G2-04 — Qualitative vs Quantitative Risk Analysis",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "qualitative",
+      "quantitative",
+      "risk-analysis",
+      "fair",
+      "ale",
+      "sle",
+      "aro"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-05 — The Risk Register — Structure and Maintenance.md",
+    "title": "G2-05 — The Risk Register — Structure and Maintenance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "risk-register",
+      "risk-owner",
+      "documentation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-06 — Risk Treatment — Accept Transfer Mitigate Avoid.md",
+    "title": "G2-06 — Risk Treatment — Accept, Transfer, Mitigate, Avoid",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "risk-treatment",
+      "mitigate",
+      "transfer",
+      "avoid",
+      "accept",
+      "controls"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-07 — Residual Risk and Risk Acceptance.md",
+    "title": "G2-07 — Residual Risk and Risk Acceptance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "residual-risk",
+      "risk-acceptance",
+      "risk-appetite",
+      "documentation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-08 — Enterprise Risk Management — ERM Frameworks.md",
+    "title": "G2-08 — Enterprise Risk Management — ERM Frameworks",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "erm",
+      "coso",
+      "iso31000",
+      "enterprise-risk"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-09 — CRISC Domain 1 — IT Risk Identification.md",
+    "title": "G2-09 — CRISC Domain 1 — IT Risk Identification",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "crisc",
+      "it-risk-identification",
+      "risk-scenarios",
+      "threat-modelling"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-10 — CRISC Domain 2 — IT Risk Assessment.md",
+    "title": "G2-10 — CRISC Domain 2 — IT Risk Assessment",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "crisc",
+      "it-risk-assessment",
+      "likelihood",
+      "impact",
+      "risk-matrix"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-11 — CRISC Domain 3 — Risk Response and Mitigation.md",
+    "title": "G2-11 — CRISC Domain 3 — Risk Response and Mitigation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "crisc",
+      "risk-response",
+      "risk-mitigation",
+      "controls",
+      "treatment-plan"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-2-RISK-MANAGEMENT/G2-12 — CRISC Domain 4 — Risk and Control Monitoring.md",
+    "title": "G2-12 — CRISC Domain 4 — Risk and Control Monitoring",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-2-RISK-MANAGEMENT",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-2",
+      "risk-management",
+      "crisc",
+      "risk-monitoring",
+      "control-monitoring",
+      "kri",
+      "metrics"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-01 — What is ISO 27001 — History Purpose Structure.md",
+    "title": "G3-01 — What is ISO 27001 — History, Purpose, Structure",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "isms",
+      "history",
+      "structure",
+      "certification"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-02 — The ISMS — Information Security Management System.md",
+    "title": "G3-02 — The ISMS — Information Security Management System",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "isms",
+      "management-system",
+      "scope",
+      "pdca"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-03 — ISO 27001 Clause 4 — Context of the Organisation.md",
+    "title": "G3-03 — ISO 27001 Clause 4 — Context of the Organisation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-4",
+      "context",
+      "stakeholders",
+      "scope",
+      "interested-parties"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-04 — ISO 27001 Clause 5 — Leadership.md",
+    "title": "G3-04 — ISO 27001 Clause 5 — Leadership",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-5",
+      "leadership",
+      "top-management",
+      "policy",
+      "roles-responsibilities"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-05 — ISO 27001 Clause 6 — Planning.md",
+    "title": "G3-05 — ISO 27001 Clause 6 — Planning",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-6",
+      "planning",
+      "risk-assessment",
+      "risk-treatment",
+      "soa",
+      "objectives"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-06 — ISO 27001 Clause 7 — Support.md",
+    "title": "G3-06 — ISO 27001 Clause 7 — Support",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-7",
+      "support",
+      "resources",
+      "competence",
+      "awareness",
+      "communication",
+      "documented-information"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-07 — ISO 27001 Clause 8 — Operation.md",
+    "title": "G3-07 — ISO 27001 Clause 8 — Operation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-8",
+      "operation",
+      "risk-assessment",
+      "risk-treatment",
+      "operational-planning"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-08 — ISO 27001 Clause 9 — Performance Evaluation.md",
+    "title": "G3-08 — ISO 27001 Clause 9 — Performance Evaluation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-9",
+      "performance-evaluation",
+      "monitoring",
+      "internal-audit",
+      "management-review"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-09 — ISO 27001 Clause 10 — Improvement.md",
+    "title": "G3-09 — ISO 27001 Clause 10 — Improvement",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "clause-10",
+      "improvement",
+      "nonconformity",
+      "corrective-action",
+      "continual-improvement"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-10 — Annex A Controls — Complete Reference 2022.md",
+    "title": "G3-10 — Annex A Controls — Complete Reference 2022",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "annex-a",
+      "controls",
+      "organisational",
+      "people",
+      "physical",
+      "technological"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-11 — Statement of Applicability — What It Is and How to Write It.md",
+    "title": "G3-11 — Statement of Applicability — What It Is and How to Write It",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "soa",
+      "statement-of-applicability",
+      "controls",
+      "risk-treatment"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-12 — Gap Assessment — How to Run One.md",
+    "title": "G3-12 — Gap Assessment — How to Run One",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "gap-assessment",
+      "gap-analysis",
+      "readiness",
+      "implementation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-13 — The Certification Journey — Stage 1 and Stage 2 Audits.md",
+    "title": "G3-13 — The Certification Journey — Stage 1 and Stage 2 Audits",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "certification",
+      "stage-1",
+      "stage-2",
+      "audit",
+      "certification-body"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-14 — Internal Audit — Planning Evidence Findings Reporting.md",
+    "title": "G3-14 — Internal Audit — Planning, Evidence, Findings, Reporting",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "internal-audit",
+      "audit-planning",
+      "audit-evidence",
+      "audit-findings",
+      "audit-reporting"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-15 — Nonconformities — Major Minor Observations.md",
+    "title": "G3-15 — Nonconformities — Major, Minor, Observations",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "nonconformity",
+      "major-nc",
+      "minor-nc",
+      "observation",
+      "corrective-action"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-16 — Management Review — Purpose Inputs Outputs.md",
+    "title": "G3-16 — Management Review — Purpose, Inputs, Outputs",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "management-review",
+      "clause-9",
+      "top-management",
+      "isms-improvement"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-17 — Surveillance Audits and Recertification.md",
+    "title": "G3-17 — Surveillance Audits and Recertification",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "surveillance-audit",
+      "recertification",
+      "certificate-maintenance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-18 — ISO 27001 Lead Auditor Exam — Format Strategy Tips.md",
+    "title": "G3-18 — ISO 27001 Lead Auditor Exam — Format, Strategy, Tips",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "lead-auditor",
+      "exam",
+      "certification",
+      "exam-strategy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-3-ISO27001/G3-19 — ISO 27001 Lead Implementer — How It Differs.md",
+    "title": "G3-19 — ISO 27001 Lead Implementer — How It Differs",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-3-ISO27001",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-3",
+      "iso27001",
+      "lead-implementer",
+      "implementation",
+      "isms-build"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-01 — Organisational Controls — Policies Roles Responsibilities.md",
+    "title": "G4-01 — Organisational Controls — Policies, Roles, Responsibilities",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "organisational-controls",
+      "policies",
+      "roles",
+      "responsibilities",
+      "threat-intelligence",
+      "classification"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-02 — People Controls — HR Security Awareness Training.md",
+    "title": "G4-02 — People Controls — HR Security, Awareness, Training",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "people-controls",
+      "hr-security",
+      "awareness",
+      "training",
+      "screening",
+      "offboarding"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-03 — Physical Controls — Secure Areas Equipment.md",
+    "title": "G4-03 — Physical Controls — Secure Areas, Equipment",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "physical-controls",
+      "secure-areas",
+      "equipment",
+      "physical-security",
+      "cctv"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-04 — Technological Controls — Access Cryptography Logging.md",
+    "title": "G4-04 — Technological Controls — Access, Cryptography, Logging",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "technological-controls",
+      "access-control",
+      "cryptography",
+      "logging",
+      "vulnerability-management",
+      "network-security",
+      "secure-development"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-05 — Control Selection and Justification.md",
+    "title": "G4-05 — Control Selection and Justification",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "control-selection",
+      "risk-based",
+      "soa",
+      "justification",
+      "proportionality"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-4-ISO27002-CONTROLS/G4-06 — Control Testing and Evidence Collection.md",
+    "title": "G4-06 — Control Testing and Evidence Collection",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-4-ISO27002-CONTROLS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-4",
+      "iso27002",
+      "control-testing",
+      "evidence-collection",
+      "audit-evidence",
+      "control-effectiveness"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-01 — Why Data Protection Law Exists.md",
+    "title": "G5-01 — Why Data Protection Law Exists",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "data-protection",
+      "history",
+      "privacy",
+      "regulation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-02 — GDPR — Structure Principles Lawful Basis.md",
+    "title": "G5-02 — GDPR — Structure, Principles, Lawful Basis",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "structure",
+      "principles",
+      "lawful-basis",
+      "article-5",
+      "article-6"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-03 — Data Subject Rights — All Eight Explained.md",
+    "title": "G5-03 — Data Subject Rights — All Eight Explained",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "data-subject-rights",
+      "access",
+      "erasure",
+      "portability",
+      "objection",
+      "rectification"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-04 — Data Controller vs Data Processor.md",
+    "title": "G5-04 — Data Controller vs Data Processor",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "data-controller",
+      "data-processor",
+      "joint-controller",
+      "dpa",
+      "liability"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-05 — Data Protection Impact Assessment — DPIA.md",
+    "title": "G5-05 — Data Protection Impact Assessment — DPIA",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "dpia",
+      "data-protection-impact-assessment",
+      "privacy-by-design",
+      "high-risk-processing"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-06 — The Role of the DPO — Data Protection Officer.md",
+    "title": "G5-06 — The Role of the DPO — Data Protection Officer",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "dpo",
+      "data-protection-officer",
+      "independence",
+      "mandatory"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-07 — Breach Notification — 72 Hours and What It Means.md",
+    "title": "G5-07 — Breach Notification — 72 Hours and What It Means",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "breach-notification",
+      "72-hours",
+      "article-33",
+      "article-34",
+      "incident-response"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-08 — International Data Transfers — SCCs Adequacy Decisions.md",
+    "title": "G5-08 — International Data Transfers — SCCs, Adequacy Decisions",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "international-transfers",
+      "sccs",
+      "adequacy",
+      "standard-contractual-clauses",
+      "data-transfers"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-09 — GDPR and ISO 27001 — How They Overlap.md",
+    "title": "G5-09 — GDPR and ISO 27001 — How They Overlap",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "iso27001",
+      "overlap",
+      "article-32",
+      "isms",
+      "privacy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-5-DATA-PROTECTION-GDPR/G5-10 — UK GDPR vs EU GDPR — Key Differences.md",
+    "title": "G5-10 — UK GDPR vs EU GDPR — Key Differences",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-5-DATA-PROTECTION-GDPR",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-5",
+      "gdpr",
+      "uk-gdpr",
+      "brexit",
+      "dpa-2018",
+      "ico",
+      "adequacy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-01 — What is PCI DSS and Who Must Comply.md",
+    "title": "G6-01 — What is PCI DSS and Who Must Comply",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "payment-card",
+      "compliance",
+      "cardholder-data",
+      "scope"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-02 — The 12 PCI DSS Requirements — Complete Reference.md",
+    "title": "G6-02 — The 12 PCI DSS Requirements — Complete Reference",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "requirements",
+      "controls",
+      "security-controls",
+      "compliance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-03 — Merchant Levels and SAQ Types.md",
+    "title": "G6-03 — Merchant Levels and SAQ Types",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "merchant-levels",
+      "saq",
+      "self-assessment",
+      "compliance-levels"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-04 — Cardholder Data Environment — CDE Scoping.md",
+    "title": "G6-04 — Cardholder Data Environment — CDE Scoping",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "cde",
+      "scope",
+      "cardholder-data-environment",
+      "network-segmentation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-05 — Network Segmentation and Scope Reduction.md",
+    "title": "G6-05 — Network Segmentation and Scope Reduction",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "network-segmentation",
+      "scope-reduction",
+      "firewall",
+      "vlan",
+      "zero-trust"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-06 — The QSA — Qualified Security Assessor.md",
+    "title": "G6-06 — The QSA — Qualified Security Assessor",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "qsa",
+      "qualified-security-assessor",
+      "roc",
+      "assessment",
+      "audit"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-07 — PCI DSS v4.0 — What Changed.md",
+    "title": "G6-07 — PCI DSS v4.0 — What Changed",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "v4",
+      "changes",
+      "customised-approach",
+      "mfa",
+      "authentication"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-6-PCI-DSS/G6-08 — PCI DSS and ISO 27001 — Mapping and Overlap.md",
+    "title": "G6-08 — PCI DSS and ISO 27001 — Mapping and Overlap",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-6-PCI-DSS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-6",
+      "pci-dss",
+      "iso27001",
+      "mapping",
+      "overlap",
+      "integration"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-01 — COBIT — Control Objectives for Information and Related Technologies.md",
+    "title": "G7-01 — COBIT — Control Objectives for Information and Related Technologies",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "cobit",
+      "governance",
+      "it-governance",
+      "control-objectives"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-02 — NIST CSF 2.0 — The Cybersecurity Framework.md",
+    "title": "G7-02 — NIST CSF 2.0 — The Cybersecurity Framework",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "nist-csf",
+      "cybersecurity-framework",
+      "nist",
+      "risk-management"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-03 — NIST SP 800-53 — Security and Privacy Controls.md",
+    "title": "G7-03 — NIST SP 800-53 — Security and Privacy Controls",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "nist-sp-800-53",
+      "security-controls",
+      "privacy-controls",
+      "federal",
+      "risk-management-framework"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-04 — SOC 2 — Service Organisation Controls.md",
+    "title": "G7-04 — SOC 2 — Service Organisation Controls",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "soc2",
+      "aicpa",
+      "trust-services",
+      "service-organisation",
+      "audit"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-05 — Cyber Essentials — UK Government Scheme.md",
+    "title": "G7-05 — Cyber Essentials — UK Government Scheme",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "cyber-essentials",
+      "uk-government",
+      "ncsc",
+      "certification",
+      "sme"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-06 — ITIL — IT Service Management and Its GRC Relevance.md",
+    "title": "G7-06 — ITIL — IT Service Management and Its GRC Relevance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "itil",
+      "itsm",
+      "service-management",
+      "incident-management",
+      "change-management"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-7-GOVERNANCE-FRAMEWORKS/G7-07 — Framework Decision Guide — Which Framework to Use When.md",
+    "title": "G7-07 — Framework Decision Guide — Which Framework to Use When",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-7-GOVERNANCE-FRAMEWORKS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-7",
+      "framework-selection",
+      "decision-guide",
+      "iso27001",
+      "nist-csf",
+      "cobit",
+      "soc2",
+      "cyber-essentials",
+      "pci-dss"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-01 — What is Business Continuity Management.md",
+    "title": "G8-01 — What is Business Continuity Management",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "business-continuity",
+      "bcm",
+      "iso-22301",
+      "resilience",
+      "bcp"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-02 — Business Impact Analysis — BIA.md",
+    "title": "G8-02 — Business Impact Analysis — BIA",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "bia",
+      "business-impact-analysis",
+      "rto",
+      "rpo",
+      "mtpd",
+      "critical-functions"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-03 — Recovery Strategies and Business Continuity Plans.md",
+    "title": "G8-03 — Recovery Strategies and Business Continuity Plans",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "recovery-strategies",
+      "bcp",
+      "business-continuity-plan",
+      "crisis-management",
+      "dr"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-04 — ISO 22301 — Business Continuity Management Systems.md",
+    "title": "G8-04 — ISO 22301 — Business Continuity Management Systems",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "iso-22301",
+      "bcms",
+      "business-continuity-standard",
+      "certification"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-05 — Exercising and Testing BCM Plans.md",
+    "title": "G8-05 — Exercising and Testing BCM Plans",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "bcm-exercises",
+      "testing",
+      "tabletop",
+      "simulation",
+      "full-interruption",
+      "lessons-learned"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-8-BUSINESS-CONTINUITY/G8-06 — Operational Resilience and Regulatory Expectations.md",
+    "title": "G8-06 — Operational Resilience and Regulatory Expectations",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-8-BUSINESS-CONTINUITY",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-8",
+      "operational-resilience",
+      "regulatory",
+      "fca",
+      "pra",
+      "dora",
+      "impact-tolerance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-01 — The Policy Hierarchy — Policies Standards Procedures and Guidelines.md",
+    "title": "G9-01 — The Policy Hierarchy — Policies, Standards, Procedures, and Guidelines",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "policy",
+      "standards",
+      "procedures",
+      "guidelines",
+      "documentation-hierarchy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-02 — Writing Effective Security Policies.md",
+    "title": "G9-02 — Writing Effective Security Policies",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "policy-writing",
+      "security-policy",
+      "documentation",
+      "communication"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-03 — Standards and Baselines — Building Measurable Requirements.md",
+    "title": "G9-03 — Standards and Baselines — Building Measurable Requirements",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "standards",
+      "baselines",
+      "cis-benchmarks",
+      "technical-controls",
+      "measurable-requirements"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-04 — Procedures and Standard Operating Procedures.md",
+    "title": "G9-04 — Procedures and Standard Operating Procedures",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "procedures",
+      "sops",
+      "operational",
+      "documentation",
+      "runbooks"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-05 — Policy Lifecycle — Review Approval and Governance.md",
+    "title": "G9-05 — Policy Lifecycle — Review, Approval, and Governance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "policy-lifecycle",
+      "governance",
+      "document-control",
+      "review-cycle"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-9-POLICIES-STANDARDS-PROCEDURES/G9-06 — Aligning Documentation to ISO 27001 and Regulatory Requirements.md",
+    "title": "G9-06 — Aligning Documentation to ISO 27001 and Regulatory Requirements",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-9-POLICIES-STANDARDS-PROCEDURES",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-9",
+      "iso27001",
+      "compliance",
+      "documentation-alignment",
+      "regulatory-mapping"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-01 — What is an Audit — Types Purposes and Principles.md",
+    "title": "G10-01 — What is an Audit — Types, Purposes, and Principles",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit",
+      "types-of-audit",
+      "audit-principles",
+      "iso-19011",
+      "assurance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-02 — Audit Planning and Preparation.md",
+    "title": "G10-02 — Audit Planning and Preparation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit-planning",
+      "audit-programme",
+      "audit-scope",
+      "audit-criteria",
+      "preparation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-03 — Audit Evidence Collection and Evaluation.md",
+    "title": "G10-03 — Audit Evidence Collection and Evaluation",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit-evidence",
+      "evidence-collection",
+      "sampling",
+      "interviews",
+      "working-papers"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-04 — Conducting the Audit — Fieldwork to Closing Meeting.md",
+    "title": "G10-04 — Conducting the Audit — Fieldwork to Closing Meeting",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit-fieldwork",
+      "closing-meeting",
+      "audit-conduct",
+      "findings-presentation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-05 — Audit Findings — Classification Writing and Reporting.md",
+    "title": "G10-05 — Audit Findings — Classification, Writing, and Reporting",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit-findings",
+      "nonconformity",
+      "finding-statements",
+      "audit-report"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-06 — Audit Report Writing.md",
+    "title": "G10-06 — Audit Report Writing",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "audit-report",
+      "report-writing",
+      "findings-summary",
+      "executive-summary"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-07 — Corrective Action and Follow-Up.md",
+    "title": "G10-07 — Corrective Action and Follow-Up",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "corrective-action",
+      "root-cause-analysis",
+      "rca",
+      "follow-up",
+      "improvement"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-10-AUDIT-AND-ASSURANCE/G10-08 — The Auditor Mindset — Professional Skills and Independence.md",
+    "title": "G10-08 — The Auditor Mindset — Professional Skills and Independence",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-10-AUDIT-AND-ASSURANCE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-10",
+      "auditor-mindset",
+      "independence",
+      "professional-skills",
+      "audit-ethics"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-11-THIRD-PARTY-SUPPLY-CHAIN/G11-01 — Third-Party Risk Management Framework.md",
+    "title": "G11-01 — Third-Party Risk Management Framework",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-11-THIRD-PARTY-SUPPLY-CHAIN",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-11",
+      "third-party-risk",
+      "tprm",
+      "supply-chain",
+      "vendor-risk",
+      "due-diligence"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-11-THIRD-PARTY-SUPPLY-CHAIN/G11-02 — Due Diligence and Supplier Security Assessment.md",
+    "title": "G11-02 — Due Diligence and Supplier Security Assessment",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-11-THIRD-PARTY-SUPPLY-CHAIN",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-11",
+      "due-diligence",
+      "supplier-assessment",
+      "security-questionnaire",
+      "vendor-risk"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-11-THIRD-PARTY-SUPPLY-CHAIN/G11-03 — Contractual Security Requirements.md",
+    "title": "G11-03 — Contractual Security Requirements",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-11-THIRD-PARTY-SUPPLY-CHAIN",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-11",
+      "contracts",
+      "security-clauses",
+      "dpa",
+      "supplier-agreements",
+      "gdpr-article-28"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-11-THIRD-PARTY-SUPPLY-CHAIN/G11-04 — Supply Chain Security and Software Supply Chain Risk.md",
+    "title": "G11-04 — Supply Chain Security and Software Supply Chain Risk",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-11-THIRD-PARTY-SUPPLY-CHAIN",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-11",
+      "supply-chain-security",
+      "software-supply-chain",
+      "sbom",
+      "solarwinds",
+      "movetit"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-11-THIRD-PARTY-SUPPLY-CHAIN/G11-05 — Cloud Provider and SaaS Risk Management.md",
+    "title": "G11-05 — Cloud Provider and SaaS Risk Management",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-11-THIRD-PARTY-SUPPLY-CHAIN",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-11",
+      "cloud-risk",
+      "saas-risk",
+      "cloud-security",
+      "shared-responsibility",
+      "csp-assessment"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-01 — CISM Overview — Domains Format and Strategy.md",
+    "title": "G12-01 — CISM Overview — Domains, Format, and Strategy",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "certification",
+      "exam-strategy",
+      "isaca",
+      "domains"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-02 — CISM Domain 1 — Information Security Governance.md",
+    "title": "G12-02 — CISM Domain 1: Information Security Governance",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "domain-1",
+      "governance",
+      "security-strategy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-03 — CISM Domain 2 — Information Security Risk Management.md",
+    "title": "G12-03 — CISM Domain 2: Information Security Risk Management",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "domain-2",
+      "risk-management",
+      "risk-assessment",
+      "risk-treatment"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-04 — CISM Domain 3 — Information Security Programme.md",
+    "title": "G12-04 — CISM Domain 3: Information Security Programme",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "domain-3",
+      "security-programme",
+      "programme-management"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-05 — CISM Domain 4 — Incident Management.md",
+    "title": "G12-05 — CISM Domain 4: Incident Management",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "domain-4",
+      "incident-management",
+      "incident-response",
+      "crisis-management"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-12-CISM-CERTIFICATION/G12-06 — CISM Exam Preparation — Practice Questions and Strategy.md",
+    "title": "G12-06 — CISM Exam Preparation — Practice Questions and Strategy",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-12-CISM-CERTIFICATION",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-12",
+      "cism",
+      "exam-prep",
+      "practice-questions",
+      "exam-strategy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-13-CISSP-GRC-DOMAINS/G13-01 — CISSP Overview and GRC-Relevant Domains.md",
+    "title": "G13-01 — CISSP Overview and GRC-Relevant Domains",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-13-CISSP-GRC-DOMAINS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-13",
+      "cissp",
+      "overview",
+      "domains",
+      "exam-strategy",
+      "isc2"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-13-CISSP-GRC-DOMAINS/G13-02 — CISSP Domain 1 — Security and Risk Management.md",
+    "title": "G13-02 — CISSP Domain 1: Security and Risk Management",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-13-CISSP-GRC-DOMAINS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-13",
+      "cissp",
+      "domain-1",
+      "security-risk-management",
+      "ethics",
+      "legal"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-13-CISSP-GRC-DOMAINS/G13-03 — CISSP Domain 2 — Asset Security.md",
+    "title": "G13-03 — CISSP Domain 2: Asset Security",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-13-CISSP-GRC-DOMAINS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-13",
+      "cissp",
+      "domain-2",
+      "asset-security",
+      "data-classification",
+      "privacy"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-13-CISSP-GRC-DOMAINS/G13-04 — CISSP Domains 6 and 7 — Security Assessment and Operations.md",
+    "title": "G13-04 — CISSP Domains 6 and 7: Security Assessment and Security Operations",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-13-CISSP-GRC-DOMAINS",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-13",
+      "cissp",
+      "domain-6",
+      "domain-7",
+      "security-assessment",
+      "security-operations",
+      "audit",
+      "incident-response"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-01 — Building a GRC Function from Scratch.md",
+    "title": "G14-01 — Building a GRC Function from Scratch",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "grc-in-practice",
+      "grc-function",
+      "programme-build",
+      "ciso"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-02 — Communicating Risk to the Board and Executive Team.md",
+    "title": "G14-02 — Communicating Risk to the Board and Executive Team",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "board-communication",
+      "risk-reporting",
+      "executive-communication",
+      "security-metrics"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-03 — Managing ISO 27001 Certification — From Gap Assessment to Certificate.md",
+    "title": "G14-03 — Managing ISO 27001 Certification — From Gap Assessment to Certificate",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "iso27001",
+      "certification",
+      "gap-assessment",
+      "stage-1",
+      "stage-2",
+      "surveillance"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-04 — GRC Tooling — Platforms Automation and the Limits of Technology.md",
+    "title": "G14-04 — GRC Tooling — Platforms, Automation, and the Limits of Technology",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "grc-tooling",
+      "grc-platforms",
+      "automation",
+      "technology"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-05 — GRC Career Development — Roles Skills and Progression.md",
+    "title": "G14-05 — GRC Career Development — Roles, Skills, and Progression",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "grc-career",
+      "career-development",
+      "job-search",
+      "interview",
+      "portfolio"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-06 — GRC in Financial Services — FCA DORA and Operational Resilience.md",
+    "title": "G14-06 — GRC in Financial Services — FCA, DORA, and Operational Resilience",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "financial-services",
+      "fca",
+      "dora",
+      "operational-resilience",
+      "uk-regulation"
+    ]
+  },
+  {
+    "path": "GRC-GUARDIAN/MODULE-14-GRC-IN-PRACTICE/G14-07 — GUARDIAN Curriculum — Final Review and Master Reference.md",
+    "title": "G14-07 — GUARDIAN Curriculum — Final Review and Master Reference",
+    "track": "GRC-GUARDIAN",
+    "module": "MODULE-14-GRC-IN-PRACTICE",
+    "tags": [
+      "guardian",
+      "grc",
+      "module-14",
+      "master-reference",
+      "curriculum-complete",
+      "index",
+      "certification-map"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-01-Penetration-Testing-Fundamentals.md",
+    "title": "S1-01 — Penetration Testing Fundamentals",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "penetration-testing-fundamentals"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-02-Linux-Fundamentals-for-Pentesters.md",
+    "title": "S1-02 — Linux Fundamentals for Pentesters",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "linux-fundamentals"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-03-Windows-Fundamentals-for-Pentesters.md",
+    "title": "S1-03 — Windows Fundamentals for Pentesters",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "windows-fundamentals"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-04-Networking-for-Pentesters.md",
+    "title": "S1-04 — Networking for Pentesters (Supplement to NETGOD)",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "networking"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-05-Nmap-Complete-Reference.md",
+    "title": "S1-05 — Nmap — Complete Reference",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "nmap"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-06-Gobuster-ffuf-Feroxbuster.md",
+    "title": "S1-06 — Gobuster, ffuf, and Feroxbuster — Web Discovery",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "web-discovery",
+      "gobuster",
+      "ffuf",
+      "feroxbuster"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-07-Burp-Suite-Complete.md",
+    "title": "S1-07 — Burp Suite — Complete Beginner to Intermediate",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "burp-suite",
+      "web-testing"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-08-Shell-Techniques.md",
+    "title": "S1-08 — Shell Techniques",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": []
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-09-Vulnerability-Research-and-Exploit-Dev-Basics.md",
+    "title": "S1-09 — Vulnerability Research and Exploit Development Basics",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "vulnerability-research",
+      "exploit-development",
+      "searchsploit",
+      "metasploit"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-10-Web-Attacks-File-Uploads-and-LFI.md",
+    "title": "S1-10 — Web Attacks: File Uploads and LFI",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": []
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-11-Web-Attacks-Injection-Deep-Dive.md",
+    "title": "S1-11 — Web Attacks: Injection Deep Dive",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "thm",
+      "sqli",
+      "xss",
+      "command-injection",
+      "ssti",
+      "xxe",
+      "injection",
+      "web-attacks"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-12-Authentication-Attacks-and-Password-Cracking.md",
+    "title": "S1-12 — Authentication Attacks and Password Cracking",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "authentication",
+      "password-cracking",
+      "hydra",
+      "hashcat",
+      "john"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-13-Service-Enumeration-Deep-Dive.md",
+    "title": "S1-13 — Service Enumeration Deep Dive",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "service-enumeration",
+      "smb",
+      "ftp",
+      "ssh",
+      "snmp",
+      "mssql",
+      "mysql"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-14-Linux-Privilege-Escalation.md",
+    "title": "S1-14 — Linux Privilege Escalation — Complete Reference",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "linux-privesc",
+      "privilege-escalation"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-15-Windows-Privilege-Escalation.md",
+    "title": "S1-15 — Windows Privilege Escalation — Complete Reference",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "windows-privesc",
+      "privilege-escalation"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-16-Post-Exploitation-Fundamentals.md",
+    "title": "S1-16 — Post-Exploitation Fundamentals",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "post-exploitation",
+      "credential-harvesting"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-1-THM/S1-17-Report-Writing-Basics.md",
+    "title": "S1-17 — Report Writing Basics",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-1-THM",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-1",
+      "report-writing",
+      "documentation"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-2-EJPT/S2-01-eJPT-Exam-Format-and-Strategy.md",
+    "title": "S2-01 — eJPT Exam Format and Strategy",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-2-EJPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-2",
+      "ejpt",
+      "exam-strategy"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-2-EJPT/S2-02-Network-Pivoting-Complete-Reference.md",
+    "title": "S2-02 — Network Pivoting — Complete Reference",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-2-EJPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-2",
+      "ejpt",
+      "pivoting",
+      "tunneling"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-01-Active-Directory-Architecture.md",
+    "title": "S3-01 — Active Directory Architecture (Foundation)",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "ad-fundamentals"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-02-NTLM-Authentication-and-Relay-Attacks.md",
+    "title": "S3-02 — NTLM Authentication and Relay Attacks",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "ntlm",
+      "relay",
+      "responder"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-03-Active-Directory-Enumeration.md",
+    "title": "S3-03 — Active Directory Enumeration",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "enumeration",
+      "bloodhound",
+      "powerview"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-04-AS-REP-Roasting.md",
+    "title": "S3-04 — AS-REP Roasting",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "asrep-roasting",
+      "kerberos"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-05-Kerberoasting.md",
+    "title": "S3-05 — Kerberoasting",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "kerberoasting",
+      "kerberos",
+      "spn"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-06-Password-Spraying-Active-Directory.md",
+    "title": "S3-06 — Password Spraying Active Directory",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "password-spraying"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-07-Pass-the-Hash-and-Pass-the-Ticket.md",
+    "title": "S3-07 — Pass-the-Hash and Pass-the-Ticket",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "pass-the-hash",
+      "pass-the-ticket",
+      "lateral-movement"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-08-ACL-Abuse.md",
+    "title": "S3-08 — ACL Abuse",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "acl-abuse",
+      "dacl"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-3-PNPT/S3-09-DCSync-and-Domain-Dominance.md",
+    "title": "S3-09 — DCSync and Domain Dominance",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-3-PNPT",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-3",
+      "pnpt",
+      "active-directory",
+      "dcsync",
+      "golden-ticket",
+      "domain-dominance"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-4-HTB/S4-01-Universal-Machine-Approach-Template.md",
+    "title": "S4-01 — Universal Machine Approach Template",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-4-HTB",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-4",
+      "htb",
+      "machine-methodology",
+      "approach-template"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-4-HTB/S4-03-Windows-Easy-Machine-Methodology.md",
+    "title": "S4-03 — Windows Easy Machine Deep Methodology",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-4-HTB",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-4",
+      "htb",
+      "windows",
+      "easy-machines"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-4-HTB/S4-04-Medium-Machine-Approach.md",
+    "title": "S4-04 — Medium Machine Approach",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-4-HTB",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-4",
+      "htb",
+      "medium-machines",
+      "methodology"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-4-HTB/S4-05-Active-Directory-Machine-Methodology.md",
+    "title": "S4-05 — Active Directory Machine Methodology",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-4-HTB",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-4",
+      "htb",
+      "active-directory",
+      "machine-methodology"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-5-OSCP/S5-01-OSCP-Exam-Format-and-Rules.md",
+    "title": "S5-01 — OSCP Exam Format and Rules (Complete)",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-5-OSCP",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-5",
+      "oscp",
+      "exam-format",
+      "rules"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-5-OSCP/S5-02-OSCP-Exam-Time-Management.md",
+    "title": "S5-02 — OSCP Exam Time Management",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-5-OSCP",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-5",
+      "oscp",
+      "time-management",
+      "exam-strategy"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-5-OSCP/S5-03-OSCP-Report-Template.md",
+    "title": "S5-03 — OSCP Report Template",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-5-OSCP",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-5",
+      "oscp",
+      "report-writing",
+      "documentation"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-5-OSCP/S5-04-What-To-Do-When-Stuck.md",
+    "title": "S5-04 — What To Do When Stuck (OSCP Decision Tree)",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-5-OSCP",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-5",
+      "oscp",
+      "stuck",
+      "decision-tree",
+      "troubleshooting"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-6-CPTS/S6-01-CPTS-vs-OSCP-Whats-Different.md",
+    "title": "S6-01 — CPTS vs OSCP — What's Different",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-6-CPTS",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-6",
+      "cpts",
+      "comparison",
+      "advanced"
+    ]
+  },
+  {
+    "path": "OSCP-JOURNEY/STAGE-6-CPTS/S6-02-CPTS-Exam-Strategy-and-Report.md",
+    "title": "S6-02 — CPTS Exam Strategy and Report",
+    "track": "OSCP-JOURNEY",
+    "module": "STAGE-6-CPTS",
+    "tags": [
+      "oscp-journey",
+      "spectre",
+      "stage-6",
+      "cpts",
+      "exam-strategy",
+      "report",
+      "pro-labs"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 0 — Foundations/00.1 — What is Penetration Testing.md",
+    "title": "00.1 — What is Penetration Testing",
+    "track": "PHANTOM",
+    "module": "MODULE 0 — Foundations",
+    "tags": [
+      "pentesting",
+      "foundations",
+      "legal",
+      "ethics",
+      "methodology"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 0 — Foundations/00.2 — Report Writing.md",
+    "title": "00.2 — Report Writing",
+    "track": "PHANTOM",
+    "module": "MODULE 0 — Foundations",
+    "tags": [
+      "pentesting",
+      "foundations",
+      "reporting",
+      "methodology"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 0 — Foundations/00.3 — Lab Setup.md",
+    "title": "00.3 — Lab Setup",
+    "track": "PHANTOM",
+    "module": "MODULE 0 — Foundations",
+    "tags": [
+      "pentesting",
+      "foundations",
+      "lab",
+      "kali",
+      "setup",
+      "virtualbox"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 1 — Reconnaissance/01.1 — Passive Recon & OSINT.md",
+    "title": "01.1 — Passive Recon & OSINT",
+    "track": "PHANTOM",
+    "module": "MODULE 1 — Reconnaissance",
+    "tags": [
+      "recon",
+      "osint",
+      "passive",
+      "google-dorks",
+      "shodan",
+      "whois",
+      "dns",
+      "theharvester"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 1 — Reconnaissance/01.2 — Active Recon & Nmap.md",
+    "title": "01.2 — Active Recon & Nmap",
+    "track": "PHANTOM",
+    "module": "MODULE 1 — Reconnaissance",
+    "tags": [
+      "recon",
+      "active",
+      "nmap",
+      "scanning",
+      "nse",
+      "masscan",
+      "netdiscover"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 1 — Reconnaissance/01.3 — Subdomain Enumeration.md",
+    "title": "01.3 — Subdomain Enumeration",
+    "track": "PHANTOM",
+    "module": "MODULE 1 — Reconnaissance",
+    "tags": [
+      "recon",
+      "subdomains",
+      "amass",
+      "subfinder",
+      "assetfinder",
+      "dnsx",
+      "enumeration"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 1 — Reconnaissance/01.4 — Technology Fingerprinting.md",
+    "title": "01.4 — Technology Fingerprinting",
+    "track": "PHANTOM",
+    "module": "MODULE 1 — Reconnaissance",
+    "tags": [
+      "recon",
+      "fingerprinting",
+      "whatweb",
+      "wappalyzer",
+      "nikto",
+      "headers",
+      "technology"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 1 — Reconnaissance/01.5 — JavaScript File Analysis.md",
+    "title": "01.5 - JavaScript File Analysis",
+    "track": "PHANTOM",
+    "module": "MODULE 1 — Reconnaissance",
+    "tags": []
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.1 — OWASP Top 10 & Burp Suite.md",
+    "title": "02.1 — OWASP Top 10 & Burp Suite Fundamentals",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "owasp",
+      "burpsuite",
+      "proxy",
+      "http",
+      "methodology"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.2 — Injection Attacks.md",
+    "title": "02.2 — Injection Attacks (SQLi, XSS, CMDi, XXE, SSTI, SSRF)",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "injection",
+      "sqli",
+      "xss",
+      "command-injection",
+      "xxe",
+      "ssti",
+      "ssrf",
+      "sqlmap",
+      "burpsuite"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.3 — Authentication & Session Attacks.md",
+    "title": "02.3 — Authentication & Session Attacks",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "auth",
+      "session",
+      "brute-force",
+      "jwt",
+      "oauth",
+      "csrf",
+      "mfa-bypass",
+      "session-fixation"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.4 — Access Control, IDOR & Business Logic.md",
+    "title": "02.4 — Access Control, IDOR & Business Logic",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "access-control",
+      "idor",
+      "bola",
+      "bfla",
+      "business-logic",
+      "authorisation",
+      "broken-access",
+      "owasp"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.5 — Advanced Web Attacks & API Testing.md",
+    "title": "02.5 — Advanced Web Attacks & API Testing",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "api",
+      "graphql",
+      "jwt",
+      "oauth",
+      "nuclei",
+      "arjun",
+      "ffuf",
+      "wfuzz",
+      "web-cache",
+      "deserialization"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 2 — Web Application Pentesting/02.6 — SAML & SSO Attacks.md",
+    "title": "02.6 - SAML & SSO Attacks",
+    "track": "PHANTOM",
+    "module": "MODULE 2 — Web Application Pentesting",
+    "tags": [
+      "web",
+      "saml",
+      "sso",
+      "xml-signature",
+      "authentication",
+      "federation",
+      "identity-provider",
+      "service-provider",
+      "burpsuite"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 3 — Network Pentesting/03.1 — Network Scanning & SMB Attacks.md",
+    "title": "03.1 — Network Scanning & SMB Attacks",
+    "track": "PHANTOM",
+    "module": "MODULE 3 — Network Pentesting",
+    "tags": [
+      "network",
+      "smb",
+      "eternalblue",
+      "responder",
+      "llmnr",
+      "crackmapexec",
+      "enum4linux",
+      "nmap"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 3 — Network Pentesting/03.2 — Metasploit Framework.md",
+    "title": "03.2 — Metasploit Framework",
+    "track": "PHANTOM",
+    "module": "MODULE 3 — Network Pentesting",
+    "tags": [
+      "network",
+      "metasploit",
+      "msfconsole",
+      "meterpreter",
+      "msfvenom",
+      "payloads",
+      "post-exploitation"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 3 — Network Pentesting/03.3 — Password Attacks & Hash Cracking.md",
+    "title": "03.3 — Password Attacks & Hash Cracking",
+    "track": "PHANTOM",
+    "module": "MODULE 3 — Network Pentesting",
+    "tags": [
+      "network",
+      "passwords",
+      "hashcat",
+      "john",
+      "hydra",
+      "ntlm",
+      "hash-cracking",
+      "wordlists",
+      "rainbow-tables"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 3 — Network Pentesting/03.4 — Traffic Analysis & MITM.md",
+    "title": "03.4 — Traffic Analysis & Man-in-the-Middle",
+    "track": "PHANTOM",
+    "module": "MODULE 3 — Network Pentesting",
+    "tags": [
+      "network",
+      "wireshark",
+      "tcpdump",
+      "traffic-analysis",
+      "mitm",
+      "arp-spoofing",
+      "bettercap",
+      "ettercap",
+      "plaintext-protocols"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.1 — AD Fundamentals & Enumeration.md",
+    "title": "04.1 — AD Fundamentals & Enumeration",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "enumeration",
+      "bloodhound",
+      "powerview",
+      "ldap",
+      "kerberos",
+      "ntlm",
+      "ad-fundamentals"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.2 — Credential Attacks.md",
+    "title": "04.2 — Credential Attacks (Kerberoasting, AS-REP, PTH, PTT)",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "kerberoasting",
+      "as-rep-roasting",
+      "pass-the-hash",
+      "pass-the-ticket",
+      "mimikatz",
+      "credential-attacks"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.3 — Privilege Escalation & Lateral Movement.md",
+    "title": "04.3 — Privilege Escalation & Lateral Movement in AD",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "privilege-escalation",
+      "lateral-movement",
+      "dcsync",
+      "acl-abuse",
+      "gpo-abuse",
+      "psexec",
+      "wmiexec",
+      "winrm"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.4 — Persistence & Impacket Suite.md",
+    "title": "04.4 — Persistence & the Impacket Suite",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "persistence",
+      "golden-ticket",
+      "silver-ticket",
+      "skeleton-key",
+      "impacket",
+      "dcsync",
+      "dsrm"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.5 — ADCS Certificate Abuse.md",
+    "title": "04.5 — ADCS Certificate Abuse (ESC1–ESC8)",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "adcs",
+      "certificates",
+      "esc1",
+      "esc2",
+      "esc3",
+      "esc4",
+      "esc8",
+      "certipy",
+      "certify",
+      "pkinit",
+      "kerberos",
+      "persistence",
+      "privilege-escalation"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 4 — Active Directory Pentesting/04.6 — BloodHound & AD Attack Path Analysis.md",
+    "title": "04.6 — BloodHound & AD Attack Path Analysis",
+    "track": "PHANTOM",
+    "module": "MODULE 4 — Active Directory Pentesting",
+    "tags": [
+      "active-directory",
+      "bloodhound",
+      "sharphound",
+      "neo4j",
+      "attack-paths",
+      "domain-admin",
+      "acl-abuse",
+      "enumeration",
+      "graph-theory"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 5 — Android Pentesting/05.1 — APK Fundamentals & Static Analysis.md",
+    "title": "05.1 — APK Fundamentals & Static Analysis",
+    "track": "PHANTOM",
+    "module": "MODULE 5 — Android Pentesting",
+    "tags": [
+      "android",
+      "mobile",
+      "apk",
+      "static-analysis",
+      "jadx",
+      "apktool",
+      "mobsf",
+      "manifest",
+      "reverse-engineering"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 5 — Android Pentesting/05.2 — Dynamic Analysis & Frida.md",
+    "title": "05.2 — Dynamic Analysis & Frida",
+    "track": "PHANTOM",
+    "module": "MODULE 5 — Android Pentesting",
+    "tags": [
+      "android",
+      "mobile",
+      "dynamic-analysis",
+      "frida",
+      "objection",
+      "drozer",
+      "adb",
+      "runtime-manipulation"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 5 — Android Pentesting/05.3 — Traffic Interception & SSL Pinning Bypass.md",
+    "title": "05.3 — Traffic Interception & SSL Pinning Bypass",
+    "track": "PHANTOM",
+    "module": "MODULE 5 — Android Pentesting",
+    "tags": [
+      "android",
+      "mobile",
+      "ssl-pinning",
+      "burpsuite",
+      "proxy",
+      "certificate-pinning",
+      "frida",
+      "objection",
+      "network-interception"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 5 — Android Pentesting/05.4 — OWASP MASVS Vulnerabilities.md",
+    "title": "05.4 — OWASP MASVS Vulnerabilities & Testing Checklist",
+    "track": "PHANTOM",
+    "module": "MODULE 5 — Android Pentesting",
+    "tags": [
+      "android",
+      "mobile",
+      "masvs",
+      "mstg",
+      "owasp",
+      "insecure-storage",
+      "deeplink",
+      "webview",
+      "exported-components",
+      "checklist"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 5 — Android Pentesting/05.5 — iOS Pentesting.md",
+    "title": "05.5 — iOS Pentesting",
+    "track": "PHANTOM",
+    "module": "MODULE 5 — Android Pentesting",
+    "tags": [
+      "mobile",
+      "ios",
+      "iphone",
+      "objection",
+      "frida",
+      "burpsuite",
+      "ssl-pinning",
+      "keychain",
+      "ipa",
+      "static-analysis",
+      "dynamic-analysis",
+      "owasp-masvs"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 6 — Privilege Escalation/06.1 — Linux Privilege Escalation.md",
+    "title": "06.1 — Linux Privilege Escalation",
+    "track": "PHANTOM",
+    "module": "MODULE 6 — Privilege Escalation",
+    "tags": [
+      "privilege-escalation",
+      "linux",
+      "suid",
+      "sudo",
+      "cron",
+      "kernel",
+      "capabilities",
+      "nfs",
+      "linpeas"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 6 — Privilege Escalation/06.2 — Windows Privilege Escalation.md",
+    "title": "06.2 — Windows Privilege Escalation",
+    "track": "PHANTOM",
+    "module": "MODULE 6 — Privilege Escalation",
+    "tags": [
+      "privilege-escalation",
+      "windows",
+      "token-impersonation",
+      "unquoted-service-path",
+      "dll-hijacking",
+      "alwaysinstallelevated",
+      "winpeas",
+      "seimpersonate"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 6 — Privilege Escalation/06.3 — PrivEsc Tools Reference.md",
+    "title": "06.3 — PrivEsc Tools Reference",
+    "track": "PHANTOM",
+    "module": "MODULE 6 — Privilege Escalation",
+    "tags": [
+      "privilege-escalation",
+      "linpeas",
+      "winpeas",
+      "gtfobins",
+      "lolbas",
+      "pspy",
+      "powerup",
+      "beroot",
+      "tools"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 7 — Post-Exploitation & Pivoting/07.1 — Persistence & Post-Exploitation.md",
+    "title": "07.1 — Persistence & Post-Exploitation",
+    "track": "PHANTOM",
+    "module": "MODULE 7 — Post-Exploitation & Pivoting",
+    "tags": [
+      "post-exploitation",
+      "persistence",
+      "lateral-movement",
+      "situational-awareness",
+      "linux",
+      "windows",
+      "registry",
+      "scheduled-tasks",
+      "wmi",
+      "dll-hijack",
+      "golden-ticket"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 7 — Post-Exploitation & Pivoting/07.2 — Pivoting & Tunnelling.md",
+    "title": "07.2 — Pivoting & Tunnelling",
+    "track": "PHANTOM",
+    "module": "MODULE 7 — Post-Exploitation & Pivoting",
+    "tags": [
+      "post-exploitation",
+      "pivoting",
+      "tunnelling",
+      "ssh",
+      "chisel",
+      "ligolo",
+      "socks",
+      "proxychains",
+      "port-forwarding"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 7 — Post-Exploitation & Pivoting/07.3 — C2 Frameworks & Data Exfiltration.md",
+    "title": "07.3 — C2 Frameworks & Data Exfiltration",
+    "track": "PHANTOM",
+    "module": "MODULE 7 — Post-Exploitation & Pivoting",
+    "tags": [
+      "post-exploitation",
+      "c2",
+      "command-and-control",
+      "exfiltration",
+      "sliver",
+      "havoc",
+      "covering-tracks"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 8 — Reporting/08.1 — Professional Pentest Reporting.md",
+    "title": "08.1 — Professional Pentest Reporting",
+    "track": "PHANTOM",
+    "module": "MODULE 8 — Reporting",
+    "tags": [
+      "reporting",
+      "cvss",
+      "findings",
+      "executive-summary",
+      "remediation",
+      "professional",
+      "pentest-report"
+    ]
+  },
+  {
+    "path": "PHANTOM/MODULE 9 — Labs & Practice Resources/09.1 — Labs & Practice Resources.md",
+    "title": "09.1 — Labs & Practice Resources",
+    "track": "PHANTOM",
+    "module": "MODULE 9 — Labs & Practice Resources",
+    "tags": [
+      "labs",
+      "practice",
+      "hackthebox",
+      "tryhackme",
+      "vulnhub",
+      "portswigger",
+      "dvwa",
+      "resources",
+      "wordlists",
+      "seclists"
+    ]
+  }
+]
