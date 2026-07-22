@@ -589,7 +589,7 @@ body {
   border-bottom: 1px solid var(--accent-border);
 }
 .note-body a:hover { border-bottom-color: var(--accent-strong); }
-.note-body a.wikilink-broken { color: var(--link-broken); border-bottom: none; cursor: default; }
+.note-body .wikilink-broken { color: var(--link-broken); border-bottom: none; cursor: default; }
 
 .note-body ul, .note-body ol { margin: 0 0 1.1em; padding-left: 1.4em; }
 .note-body li { margin-bottom: 0.35em; }

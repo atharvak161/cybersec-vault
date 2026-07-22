@@ -383,6 +383,17 @@
     });
   }
 
+  // ---------------- Sanitization ----------------
+
+  function sanitizeHtml(html) {
+    if (!window.DOMPurify) return html;
+    return window.DOMPurify.sanitize(html, {
+      ADD_TAGS: ['span'],
+      ADD_ATTR: ['class', 'id', 'href', 'target', 'rel', 'data-path', 'data-index', 'colspan', 'rowspan'],
+      ALLOW_DATA_ATTR: true
+    });
+  }
+
   // ---------------- Note rendering ----------------
 
   function openNote(path, opts) {
@@ -416,6 +427,7 @@
     var body = stripLeadingH1(parsed.body, entry.title);
     var withWikilinks = renderWikilinks(body, entry);
     var html = window.marked.parse(withWikilinks, { gfm: true, breaks: false });
+    html = sanitizeHtml(html);
 
     els.landing.hidden = true;
     els.noteView.hidden = false;
