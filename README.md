@@ -90,6 +90,10 @@ it means search and the graph lag behind the markdown until it is run.
   — a pinned, locally-vendored copy of [highlight.js](https://highlightjs.org/)
   (v11.9.0, common-languages bundle) for fenced code block syntax
   highlighting. The active stylesheet swaps with the theme toggle.
+- `assets/vendor/purify.min.js` — a pinned, locally-vendored copy of
+  [DOMPurify](https://github.com/cure53/DOMPurify) (v3.2.4). Every piece of HTML
+  that `marked` produces is sanitised through it before it reaches the DOM, so a
+  malicious note cannot execute script in the reader.
 - `assets/vendor/fonts/` — JetBrains Mono (400/500/600/700, woff2),
   self-hosted, no Google Fonts / CDN request at runtime.
 - `assets/app.js` — the whole app: sidebar tree, landing dashboard, hash
