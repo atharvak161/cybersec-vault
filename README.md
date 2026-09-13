@@ -7,6 +7,68 @@ render the site is vendored in this repo. Dark-first terminal/console design,
 single accent color, JetBrains Mono for chrome and code, system sans for
 reading prose.
 
+## Architecture
+
+### Build and serve
+
+```
+  notes/**/*.md ──────▶ scripts/generate-index.js ──────▶ search-index.json
+  248 markdown files    run manually, not in CI                3.2 MB
+  across 4 tracks                │                      ──────▶ graph.json
+                                 │                              119 KB
+                                 ▼
+                          index.html (5 KB shell)
+                          assets/app.js  ── renders everything client-side
+                          assets/style.css
+                          assets/vendor/ ── marked, highlight.js (vendored)
+```
+
+There is no server and no build step at deploy time. `generate-index.js` is run
+by hand after adding or editing notes; it walks `notes/`, extracts titles,
+headings and body text into `search-index.json`, and resolves `[[wikilinks]]`
+into the adjacency list in `graph.json`. Everything committed is everything
+served.
+
+### Runtime
+
+```
+  index.html
+      │
+      ├─ fetch search-index.json   one request, then all search is in-memory
+      ├─ fetch graph.json          backlinks + the interactive link graph
+      │
+      └─ assets/app.js
+            ├── router          URL hash addresses a note; back/forward work
+            ├── search          full-text over the prebuilt index, no server
+            ├── renderer        marked → HTML, highlight.js for code fences
+            ├── wikilinks       [[Note]] rewritten to in-app navigation
+            ├── backlinks       reverse edges read from graph.json
+            └── command palette ⌘K
+```
+
+### Why it is shaped this way
+
+**The index is built ahead of time, not at load.** Parsing 248 markdown files
+in the browser on every visit would be slow and would scale badly. Building
+once into a flat JSON index makes search instant and keeps the runtime a single
+fetch.
+
+**Vendored, not CDN.** `marked` and `highlight.js` live in `assets/vendor/` so
+the knowledge base still renders if a CDN is unreachable, and so nothing
+third-party can inject into a page that renders untrusted markdown.
+
+**Notes stay plain markdown.** `notes/` is readable and editable without this
+app — in any editor, or straight on GitHub. The browser is a convenience layer
+over the files, never the format of record.
+
+### Trade-offs
+
+The search index is 3.2 MB and is fetched in full on first load, which is the
+cost of instant client-side search with no backend. It is cached thereafter.
+Re-running `generate-index.js` after editing notes is a manual step; forgetting
+it means search and the graph lag behind the markdown until it is run.
+
+
 ## How it works
 
 - `notes/` — the 248 source markdown files, copied byte-for-byte from the
