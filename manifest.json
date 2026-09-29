@@ -3904,5 +3904,23 @@
       "wordlists",
       "seclists"
     ]
+  },
+  {
+    "path": "REFERENCE/Mindmaps/Active Directory Pentest Mindmap.md",
+    "title": "Active Directory Pentest Mindmap (Orange Cyberdefense)",
+    "track": "REFERENCE",
+    "module": "Mindmaps",
+    "tags": [
+      "active-directory",
+      "mindmap",
+      "reference",
+      "kerberos",
+      "adcs",
+      "delegation",
+      "acl",
+      "sccm",
+      "orange-cyberdefense",
+      "external"
+    ]
   }
 ]

@@ -21,7 +21,8 @@
     'CLOUDHAWK': { glyph: 'CH', desc: 'Cloud penetration testing across AWS, Azure, and GCP — IAM abuse, metadata services, container and serverless attack paths.' },
     'GRC-GUARDIAN': { glyph: 'GG', desc: 'Governance, risk, and compliance — ISO 27001, PCI-DSS, GDPR, audit and assurance, CISM and CISSP domains.' },
     'OSCP-JOURNEY': { glyph: 'OJ', desc: 'A structured path from fundamentals through eJPT, PNPT, HTB, OSCP, and CPTS.' },
-    'PHANTOM': { glyph: 'PH', desc: 'Network, web application, and Active Directory penetration testing, end to end.' }
+    'PHANTOM': { glyph: 'PH', desc: 'Network, web application, and Active Directory penetration testing, end to end.' },
+    'REFERENCE': { glyph: 'RF', desc: 'External references worth keeping offline \u2014 mindmaps, cheatsheets and diagrams made by other people, each credited and under its own licence.' }
   };
 
   var els = {};
